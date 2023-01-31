@@ -145,6 +145,6 @@ int main(int argc, char* argv[]){
     jacobi(_A,x,_b,proc_blocksize,offset);
     MPI_Finalize();
    // dump(A,x,b);
-    printf("x[2] = %lf \n",x[N-1]);
+   // printf("x[2] = %lf \n",x[N-1]);
 
 }
